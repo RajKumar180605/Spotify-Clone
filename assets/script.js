@@ -189,6 +189,22 @@ function displayAlbums(albums) {
     // 1. Fetch data ONCE and store it
     let response = await fetch(`/assets/database.json`);
     let allAlbums = await response.json();
+    //let albumsData = allAlbums.albums;
+    console.log("Attempting to fetch /assets/database.json...");
+    const response = await fetch(`https://rajkumar180605.github.io/Spotify-Clone/assets/database.json`);
+    
+    // Check if the fetch was successful (status 200 OK)
+    if (!response.ok) {
+        // If not OK, log the error status and the response text
+        console.error("Error fetching data. Status:", response.status); // e.g., 404
+        const errorText = await response.text();
+        console.error("Server sent back this:", errorText); // This will show the HTML error page
+        return; // Stop the script
+    }
+    
+    // If we get here, the fetch was successful, so we can parse the JSON
+    const allAlbums = await response.json();
+    console.log("Successfully loaded JSON data:", allAlbums);
     let albumsData = allAlbums.albums;
 
     // 2. NOW, display the albums on the page using the data
