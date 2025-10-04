@@ -1,0 +1,31 @@
+{
+  "albums": [
+    {
+      "folder": "songs",
+      "title": "Happy Mood",
+      "description": "Live with no regrets",
+      "cover": "/assets/songsfolder/songs/cover.jpeg",
+      "songs": [
+        "Apna Bnale .mp3",
+        "kisi aur naal.mp3",
+        "Maand.mp3",
+        "Mera Mann.mp3",
+        "Natural .mp3",
+        "Saahiba.mp3",
+        "Todh.mp3",
+        "Young and Beautiful.mp3"
+      ]
+    },
+    {
+      "folder": "songs2",
+      "title": "Sad songs",
+      "description": "Live alone",
+      "cover": "/assets/songsfolder/songs2/cover.jpeg",
+      "songs": [
+        "khileya.mp3",
+        "pal pal.mp3",
+        "tera ban jaunga.mp3"
+      ]
+    }
+  ]
+}

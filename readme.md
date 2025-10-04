@@ -1,0 +1,1 @@
+Its a static site of spotify 
