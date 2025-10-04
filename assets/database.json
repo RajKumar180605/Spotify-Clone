@@ -4,7 +4,7 @@
       "folder": "songs",
       "title": "Happy Mood",
       "description": "Live with no regrets",
-      "cover": "/assets/songsfolder/songs/cover.jpeg",
+      "cover": " https://rajkumar180605.github.io/Spotify-Clone/assets/songsfolder/songs/cover.jpeg",
       "songs": [
         "Apna Bnale .mp3",
         "kisi aur naal.mp3",
@@ -20,7 +20,7 @@
       "folder": "songs2",
       "title": "Sad songs",
       "description": "Live alone",
-      "cover": "/assets/songsfolder/songs2/cover.jpeg",
+      "cover": " https://rajkumar180605.github.io/Spotify-Clone/assets/songsfolder/songs2/cover.jpeg",
       "songs": [
         "khileya.mp3",
         "pal pal.mp3",
