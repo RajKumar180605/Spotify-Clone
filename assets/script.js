@@ -187,8 +187,8 @@ function displayAlbums(albums) {
     // displayAlbums();
 
     // 1. Fetch data ONCE and store it
-    let response = await fetch(`/assets/database.json`);
-    let allAlbums = await response.json();
+    // let response = await fetch(`/assets/database.json`);
+    // let allAlbums = await response.json();
     //let albumsData = allAlbums.albums;
     console.log("Attempting to fetch /assets/database.json...");
     const response = await fetch(`https://rajkumar180605.github.io/Spotify-Clone/assets/database.json`);
